@@ -1,22 +1,45 @@
+* {
+    color: aliceblue;
+}
+
 body {
-    background-color:purple; 
+    background-color: purple;
     color: black;
     margin: auto;
     background-image: url("images/images.jpg");
-    
-}
-#ordersTable{
-
-background-color: teal;
 
 }
 
-#ordersTable td{
+#ordersTable {
 
-background-color: whitesmoke;
-border: solid black
+    background-color: teal;
+    margin: 0 auto;
+
 }
 
-h1{
+form {
+    margin-top: 5em;
+    display: flex;
+    justify-content: center;
+}
+
+#ordersTable td {
+
+    background-color: whitesmoke;
+    border: solid black;
+
+}
+
+input {
+    color: purple;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
     text-align: center;
 }
