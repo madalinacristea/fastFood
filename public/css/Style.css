@@ -1,0 +1,22 @@
+body {
+    background-color:purple; 
+    color: black;
+    margin: auto;
+    background-image: url("images/images.jpg");
+    
+}
+#ordersTable{
+
+background-color: teal;
+
+}
+
+#ordersTable td{
+
+background-color: whitesmoke;
+border: solid black
+}
+
+h1{
+    text-align: center;
+}
