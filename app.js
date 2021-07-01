@@ -17,7 +17,7 @@ states.push("paid")
 
 app.post('/PlaceOrder', (req, res) => {
 
-    order={}
+    let order={}
     order.state= "ordered"  
     order.tableNumber = req.body["tableNumber"]
     delete req.body.tableNumber
@@ -37,9 +37,9 @@ app.get('/setState',(req, res) => {
   outputOrders(req, res)
 })
 
-app.get('/', (req, res) => {
-    res.send('Hello World!')
-  })
+// app.get('/', (req, res) => {
+//     res.send('Hello World!')
+//   })
   
   app.listen(port, () => {
     console.log(`Example app listening at http://localhost:${port}`)
