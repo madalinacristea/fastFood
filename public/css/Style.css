@@ -1,5 +1,6 @@
 * {
-  color: aliceblue;
+  color: black;
+  font-size: 25px;
 }
 
 body {
@@ -14,20 +15,21 @@ h1 {
 h2 {
   text-align: center;
 }
+img {
+  width: 370px;
+  height: 370px;
+  object-fit: cover;
+  border-radius: 20px;
+  justify-content: left;
+  margin-right: 30px;
+}
 
 #ordersTable {
   background-color: teal;
   margin: 0 auto;
 }
 
-img {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-  border-radius: 10px;
-  justify-content: left;
-  margin-right: 30px;
-}
+
 form {
   margin-top: 5em;
   display: flex;
@@ -42,20 +44,22 @@ form {
 
 input {
   color: black;
-  font-size: 1.5em;
+  font-size: 40px;
   font-weight: bold;
 }
 
 .orderButton {
   background-color: green;
-  font-size: 20px;
+  font-size: 30px;
+  border-radius: 20px;
 }
 
 .orderButton:hover {
   background-color: #e9f1f7;
-  font-size: 20px;
+  font-size: 30px;
   color: black;
 }
+
 
 .placeOrder:focus,
 .placeOrder:hover {
@@ -83,6 +87,7 @@ input {
   border-radius: 10px;
   font-weight: bold;
   border-bottom: 3px solid black;
+  color: black;
 }
 
 button {
