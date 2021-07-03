@@ -6,7 +6,7 @@
 <h2>To run:</h2>
 <code>npm start</code>
 
-<h3>To place an order follow the link below</h3>
+<h2>To place an order follow the link below</h2>
 <a href="http://localhost:3001/makeorder.html">http://localhost:3001/makeorder.html</a>
 
 <h2>To see an order follow the link below</h2>
